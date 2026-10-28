@@ -17,9 +17,9 @@ export const Button = ({
     'inline-flex items-center justify-center font-semibold rounded-full transition-all duration-300 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-rose-400 focus-visible:ring-offset-2 disabled:opacity-50 disabled:cursor-not-allowed select-none active:scale-[0.98] cursor-pointer max-w-full text-center';
 
   const sizeStyles = {
-    sm: 'text-[11px] sm:text-xs px-3.5 py-1.5 sm:px-4 sm:py-2 gap-1.5 sm:gap-2',
-    md: 'text-xs sm:text-sm px-4 py-2 sm:px-5 sm:py-2.5 gap-2 shadow-xs',
-    lg: 'text-sm sm:text-base px-5 py-2.5 sm:px-7 sm:py-3.5 gap-2.5 shadow-sm',
+    sm: 'text-[9px] sm:text-xs px-2.5 py-1.5 sm:px-4 sm:py-2 gap-1.5 sm:gap-2',
+    md: 'text-[10px] sm:text-sm px-3 py-2 sm:px-5 sm:py-2.5 gap-2 shadow-xs',
+    lg: 'text-[11px] sm:text-base px-3.5 py-2 sm:px-7 sm:py-3.5 gap-2.5 shadow-sm',
   };
 
   const variantStyles = {

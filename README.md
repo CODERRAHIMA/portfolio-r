@@ -1,4 +1,3 @@
-
 # 🌸 Rahima | Full Stack Developer
 
 A modern personal portfolio website built with Next.js, React, and Tailwind CSS to showcase my projects, skills, education, and contact information.

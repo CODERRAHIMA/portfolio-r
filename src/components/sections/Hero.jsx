@@ -95,7 +95,7 @@ export const Hero = () => {
                     aria-label="GitHub"
                     className="inline-flex items-center font-medium hover:text-[#9F1239] transition-colors group"
                   >
-                    <div className="p-2.5 rounded-full bg-white border border-rose-100 group-hover:border-rose-300 shadow-sm transition-all group-hover:scale-110">
+                    <div className="p-2.5 rounded-full bg-white border border-rose-200 group-hover:border-rose-300 shadow-sm transition-all group-hover:scale-110">
                       <GithubIcon className="w-5 h-5 text-[#2C272A] group-hover:text-[#9F1239] transition-colors" />
                     </div>
                   </a>
@@ -109,7 +109,7 @@ export const Hero = () => {
                     aria-label="LinkedIn"
                     className="inline-flex items-center font-medium hover:text-[#9F1239] transition-colors group"
                   >
-                    <div className="p-2.5 rounded-full bg-white border border-rose-100 group-hover:border-rose-300 shadow-sm transition-all group-hover:scale-110">
+                    <div className="p-2.5 rounded-full bg-white border border-rose-200 group-hover:border-rose-300 shadow-sm transition-all group-hover:scale-110">
                       <LinkedinIcon className="w-5 h-5 text-[#0A66C2] transition-colors" />
                     </div>
                   </a>
@@ -120,7 +120,7 @@ export const Hero = () => {
                   aria-label="Email"
                   className="inline-flex items-center font-medium hover:text-[#9F1239] transition-colors group"
                 >
-                  <div className="p-2.5 rounded-full bg-white border border-rose-100 group-hover:border-rose-300 shadow-sm transition-all group-hover:scale-110">
+                  <div className="p-2.5 rounded-full bg-white border border-rose-200 group-hover:border-rose-300 shadow-sm transition-all group-hover:scale-110">
                     <Mail className="w-5 h-5 text-rose-700 transition-colors" />
                   </div>
                 </a>
@@ -149,7 +149,7 @@ export const Hero = () => {
                 </Button>
               </div>
 
-              <div className="inline-flex items-center gap-2 text-sm text-[#787074]">
+              <div className="inline-flex items-center gap-2 text-xs sm:text-sm text-[#787074]">
                 <MapPin className="w-4 h-4 shrink-0 text-rose-500" />
                 <span>{personalInfo.location}</span>
               </div>
